@@ -1,0 +1,134 @@
+header,
+footer,
+.container {
+	border: 1px solid;
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	background: #ccc;
+	
+	padding: 5px;
+}
+header,
+footer {
+	text-align: center;
+}
+footer {
+	bottom: 10px;
+}
+
+header {
+	top: 10px;
+}
+
+.container {
+	top: 50px;
+	bottom: 50px;
+	left: 10px;
+	right: 10px;
+	padding: 10px;
+}
+
+aside {
+	float: left;
+}
+.leftBlock, 
+.rightBlock {
+	border: 2px solid;
+	margin: 10px;
+	padding: 10px;
+	height: 500px;
+	overflow: auto;
+}
+.leftBlock {
+	width: 20%;
+}
+.rightBlock {
+	width: 75%;
+}
+.categories li{
+	list-style: none;
+	background: #fff;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid;	
+}
+
+.categories li:hover {
+	background: yellow;
+	cursor: pointer;
+}
+.categories {
+	margin: 2px;
+	padding: 2px;
+}
+.block img {
+	width: 150px;
+	height: 200px;
+}
+.block li {
+	list-style: none;
+}
+.block {
+	float: left;
+}
+.loginContainer {
+	border: 2px solid;
+	margin: 30px auto;
+	max-height: 257px;
+	width: 500px;
+}
+.loginContainer li{
+	list-style: none;
+	border: 1px solid grey;
+	margin: 10px;
+	padding: 10px;
+	background: #fff;
+}
+
+.fgpwdContainer {
+	border: 2px solid;
+	border-radius: 10px;
+	margin: 50px auto;
+	padding: 20px;
+	width: 300px;
+}
+
+.signup{
+	border: 2px solid;
+	margin: 30px auto;
+	height: 400px;
+	width: 500px;
+	padding: 10px;
+}
+
+.signup li{
+	list-style: none;
+	border: 1px solid grey;
+	margin: 10px;
+	padding: 10px;
+	background: #fff;
+
+
+}
+
+.invalidCredentials {
+	display: none;
+}
+
+.err {
+	text-align: center;
+	color: red;
+}
+.logout {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+	position: absolute;
+	top: 7px;
+    right: 13px;
+    font-weight: bold;
+}
+.logout:hover {
+	text-decoration: underline;
+}
